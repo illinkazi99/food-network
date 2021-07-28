@@ -20,14 +20,17 @@ p{
     padding-left: 5%;
     padding-right: 5%;
 }
-.half-width img{
-    width: 70%;
-    
+.first-girl img{
+    width: 80%;
 }
 .first-banner{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
+}
+.second-girl img{
+    width:50%;
+    
 }
 .second-banner{
     background-image: url(images/shapes/7.png);
@@ -49,20 +52,36 @@ p{
 }
 .recipe-box{
     width:50%;
-    border: 5px green;
-    padding: 50px;
     margin:20px;
     text-align: center;
-    box-shadow: 2x 2x gray;
-
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0/20%);
+    border-radius: 10px;
+    padding: 15px;
 }
 .recipe-box img{
-    width:80%;
+    width:100%;
+}
+.recipe-box h1{
+    text-align:left;
+}
+.recipe-box p{
+    text-align:left;
+    line-height: 1.5;
 }
 footer{
     text-align:center;
 }
-
+footer.footer-box{
+    background-color: #000;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+footer h1, footer p{
+    color: white;
+}
+footer h1{
+    margin-bottom: 0px;
+}
 .food{
     color:orangered;
 }
